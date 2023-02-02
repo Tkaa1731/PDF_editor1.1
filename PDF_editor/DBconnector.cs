@@ -7,12 +7,11 @@ namespace PDF_editor
             {
             SqlConnectionStringBuilder builder = new()
             {
-                DataSource = @"pobytne.cz,3341",
-                UserID = "UserSmenovnice",
-                Password = "SmEIcE654",
-                InitialCatalog = "Smenovnice"
+                DataSource = @"", //TODO: doplnit udaje pro pripojeni
+                UserID = "",
+                Password = "",
+                InitialCatalog = ""
             };
-            //TODO: Doplnit pripojeni k DB
             return builder;
             }
         }
